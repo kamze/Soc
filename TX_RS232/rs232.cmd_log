@@ -1,0 +1,78 @@
+xst -intstyle ise -ifn "/home/uvs/SY23_Riadh/TP1/RS232/rs232.xst" -ofn "/home/uvs/SY23_Riadh/TP1/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+bitgen -intstyle ise -f rs232.ut rs232.ncd 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+bitgen -intstyle ise -f rs232.ut rs232.ncd 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.xst" -ofn "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 rs232.ngc rs232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o rs232_map.ncd rs232.ngd rs232.pcf 
+par -w -intstyle ise -ol high -t 1 rs232_map.ncd rs232.ncd rs232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rs232.twx rs232.ncd -o rs232.twr rs232.pcf 

@@ -1,0 +1,6 @@
+EN rx_232 NULL /home/user/Documents/studies_SRT/SRT5/SY23/Projet/UART/RX_232.vhd sub00/vhpl02 1507588524
+AR uart behavioral /home/user/Documents/studies_SRT/SRT5/SY23/Projet/UART/UART.vhd sub00/vhpl05 1507588527
+AR rx_232 behavioral /home/user/Documents/studies_SRT/SRT5/SY23/Projet/UART/RX_232.vhd sub00/vhpl03 1507588525
+AR rs232 behavioral /home/user/Documents/studies_SRT/SRT5/SY23/Projet/UART/TX_rs232.vhd sub00/vhpl01 1507588523
+EN rs232 NULL /home/user/Documents/studies_SRT/SRT5/SY23/Projet/UART/TX_rs232.vhd sub00/vhpl00 1507588522
+EN uart NULL /home/user/Documents/studies_SRT/SRT5/SY23/Projet/UART/UART.vhd sub00/vhpl04 1507588526

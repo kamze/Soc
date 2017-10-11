@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.ncd
+OUTFILE=/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/rs232.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232
+LICENSE=WebPack
+USER_INFO=211404789_0_0_056

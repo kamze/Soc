@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/TX_tb_isim_beh.exe" -prj "/home/user/Documents/studies-SRT/SRT5/SY23/Projet/TX_RS232/TX_tb_beh.prj" "work.TX_tb" 

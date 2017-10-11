@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/RX_232/RX_232.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RX_232.ngc RX_232.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RX_232_map.ncd RX_232.ngd RX_232.pcf 
+par -w -intstyle ise -ol high -t 1 RX_232_map.ncd RX_232.ncd RX_232.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RX_232.twx RX_232.ncd -o RX_232.twr RX_232.pcf 
