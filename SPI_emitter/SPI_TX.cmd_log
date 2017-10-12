@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.syr" 
+xst -intstyle ise -ifn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.xst" -ofn "/home/user/Documents/studies_SRT/SRT5/SY23/Projet/SPI_emitter/SPI_TX.syr" 
